@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+body {
+  font-family: sans-serif;  /* Set a basic font */
+  margin: 0;  /* Remove default margin */
+}
+
+.container {
+  width: 500px;  /* Set a width for the container */
+  margin: 50px auto;  /* Center the container horizontally */
+  padding: 20px;  /* Add some padding for spacing */
+  border: 1px solid #ddd;  /* Create a simple border */
+  border-radius: 5px;  /* Add rounded corners */
+}
+
+h1 {
+  text-align: center;  /* Center the heading */
+  margin-bottom: 20px;  /* Add some space below the heading */
+}
+
+.edit-form {
+  display: flex;  /* Align form elements horizontally */
+  flex-direction: column;  /* Stack elements vertically */
+  gap: 10px;  /* Add spacing between form elements */
+}
+
+.form-group {
+  display: flex;  /* Align label and input horizontally */
+  align-items: center;  /* Vertically center label with input */
+}
+
+.form-group label {
+  width: 120px;  /* Define a fixed label width */
+  margin-right: 10px;  /* Add some space between label and input */
+}
+
+input[type="text"],
+input[type="submit"] {
+  padding: 5px;  /* Add padding to input fields and button */
+  border: 1px solid #ccc;
+  border-radius: 3px;  /* Add rounded corners to inputs and button */
+}
+
+input[type="submit"] {
+  cursor: pointer;  /* Change cursor to indicate interactivity */
+  background-color: #4CAF50;  /* Set button background color */
+  color: white;  /* Set button text color */
+  transition: background-color 0.2s ease-in-out;  /* Add a smooth hover effect */
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;  /* Change button background on hover */
+}
